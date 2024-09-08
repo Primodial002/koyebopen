@@ -29,5 +29,5 @@ COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 RUN dpkg-reconfigure locales
 COPY . /app
-RUN cd TeluguStorePro_bot
+
 CMD ["python3", "bot.py"]
