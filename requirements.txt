@@ -10,5 +10,9 @@ werkzeug==2.0.2
 itsdangerous==2.0.1
 Flask==2.0.3
 gunicorn==20.1.0
-aiohttp==3.8.2
-
+pytz
+requests
+bs4
+shortzy
+aiohttp
+asyncio
